@@ -40,7 +40,7 @@ export function DiagnosisForm() {
         <Label htmlFor="diagnosis">Aadhar Number</Label>
         <Input id="aadharNumber" value={aadharNumber} onChange={(e) => {
           setAadharNumber(e.target.value);
-        }} placeholder="Enter Patient's Aadhar Number" required />
+        }} placeholder="Enter patient&apos;s Aadhar Number" required />
       </div>
       <div className=" w-[45vh] max-w-[45vh]">
         <Label htmlFor="disease">Disease</Label>

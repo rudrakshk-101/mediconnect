@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Telemedicine() {
+export default function kTelemedicine() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -79,7 +79,7 @@ export default function Telemedicine() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Availability</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Check Dr. Jane Doe's upcoming availability and schedule your appointment.
+                  Check Dr. Jane Doe&apos;s upcoming availability and schedule your appointment.
                 </p>
               </div>
               <div className="grid grid-cols-7 gap-2">
